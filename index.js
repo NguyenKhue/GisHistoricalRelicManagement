@@ -3,11 +3,11 @@ const mongoose = require("mongoose")
 const cors = require("cors")
 require("dotenv").config()
 
-const authRouter = require("../routes/auth")
-const prismRouter = require("../routes/prism")
-const cylinderRouter = require("../routes/cylinder")
-const bodyComplexRouter = require("../routes/body_complex")
-const damageReportRouter = require("../routes/damage_report")
+const authRouter = require("./routes/auth")
+const prismRouter = require("./routes/prism")
+const cylinderRouter = require("./routes/cylinder")
+const bodyComplexRouter = require("./routes/body_complex")
+const damageReportRouter = require("./routes/damage_report")
 
 const app = express()
 
